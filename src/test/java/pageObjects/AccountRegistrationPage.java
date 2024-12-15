@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class AccountRegistrationPage extends BasePage{
 	
-	AccountRegistrationPage(WebDriver driver){
+	public AccountRegistrationPage(WebDriver driver){
 		super(driver);
 	}
 	
