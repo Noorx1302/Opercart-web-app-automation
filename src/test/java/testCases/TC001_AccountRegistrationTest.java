@@ -16,9 +16,10 @@ import testBase.BaseClass;
 
 public class TC001_AccountRegistrationTest extends BaseClass{
 
-	@Test
+	@Test(groups={"Sanity", "Master"})
 	public void verify_account_registration() {
 
+		logger.info("****Starting test case 001****");
 		HomePage hp = new HomePage(driver);
 		hp.clickMyAccount();
 		hp.clickRegisterLink();
@@ -38,8 +39,18 @@ public class TC001_AccountRegistrationTest extends BaseClass{
 		regpage.checkPolicy();
 		regpage.clickContinuebtn();
 
+		logger.info("****validating test case 001****");
 		String confmsg = regpage.getRegistrationMessage();
-		Assert.assertEquals(confmsg, "Your Account Has Been Created!");
+//		Assert.assertEquals(confmsg, "Your Account Has Been Created!");
+		
+		if(confmsg.equals("Your Account Has Been Created!")) {
+			Assert.assertTrue(true);
+		}
+		else {
+			logger.error("Test failed");
+			logger.debug("Debug logs");
+			Assert.assertTrue(false);
+		}
 
 	}
 
