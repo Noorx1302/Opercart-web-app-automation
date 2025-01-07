@@ -69,7 +69,7 @@ public class BaseClass {
 			
 			}
 			
-			driver = new RemoteWebDriver(new URI("http://192.168.4.221:4444/wd/hub").toURL(), capabilities);
+			driver = new RemoteWebDriver(new URI("http://192.168.211.66:4444/wd/hub").toURL(), capabilities);
 	
 			
 			

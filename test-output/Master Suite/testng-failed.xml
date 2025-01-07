@@ -6,15 +6,22 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC003_LoginTestDDT">
+      <class name="testCases.TC002_LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="loginTestDDT" invocation-numbers="1 2"/>
+          <include name="verify_login"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC003_LoginTestDDT -->
+      </class> <!-- testCases.TC002_LoginTest -->
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <methods>
+          <include name="verify_account_registration"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

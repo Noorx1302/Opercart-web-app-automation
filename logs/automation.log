@@ -9,3 +9,24 @@
 12:12:18.161 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
 12:12:18.162 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
 12:12:18.174 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+14:12:33.478 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Opencart\master.xml"
+14:12:33.965 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Opencart\master.xml
+
+14:12:58.353 [main] INFO  testCases.TC001_AccountRegistrationTest - ****Starting test case 001****
+14:13:03.373 [main] INFO  testCases.TC001_AccountRegistrationTest - ****validating test case 001****
+14:13:31.203 [main] INFO  testCases.TC002_LoginTest - Starting test case: Login test
+14:13:33.342 [main] INFO  testCases.TC002_LoginTest - Test case completed
+14:15:38.398 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Opencart\master.xml"
+14:15:39.020 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Opencart\master.xml
+
+14:18:25.194 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Opencart\master.xml"
+14:18:25.572 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Opencart\master.xml
+
+14:22:04.866 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Opencart\master.xml"
+14:22:05.224 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Opencart\master.xml
+
+12:38:34.776 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Opencart\master.xml"
